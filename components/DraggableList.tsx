@@ -99,7 +99,7 @@ const CustomDragLayer: React.FC = () => {
 
   const getItemStyles = (currentOffset: XYCoord) => {
     const { x, y } = currentOffset;
-    const transform = `translate(${x}px, ${y}px)`; // Adjust these values to match the preview position
+    const transform = `translate(${x}px, ${y}px)`;
     return {
       transform,
       WebkitTransform: transform,
